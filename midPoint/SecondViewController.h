@@ -9,13 +9,16 @@
 #import <UIKit/UIKit.h>
 #import <AddressBookUI/AddressBookUI.h>
 #import <MapKit/MapKit.h>
+#import <CoreLocation/CoreLocation.h>
 
-@interface SecondViewController : UIViewController
+@interface SecondViewController : UIViewController <CLLocationManagerDelegate>
 
 @property (weak, nonatomic) IBOutlet MKMapView *mapview;
 
 @property (weak, nonatomic) IBOutlet UILabel *poiName;
 @property (weak, nonatomic) IBOutlet UILabel *poiPhone;
+
+@property (nonatomic, retain) CLLocationManager *locationManager;
 
 @end
 

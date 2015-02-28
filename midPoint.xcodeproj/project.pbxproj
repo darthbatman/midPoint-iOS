@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E1376801A93B63F009EE4AF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E13767F1A93B63F009EE4AF /* CoreLocation.framework */; };
 		7EC00A8E1A909CE10007684D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC00A8D1A909CE10007684D /* MapKit.framework */; };
 		7EC00A911A90AD900007684D /* Annotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC00A901A90AD900007684D /* Annotation.m */; };
 		7EE4FCEF1A904CAD00E43A5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE4FCEE1A904CAD00E43A5B /* main.m */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7E13767F1A93B63F009EE4AF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		7EC00A8D1A909CE10007684D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		7EC00A8F1A90AD570007684D /* Annotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Annotation.h; sourceTree = "<group>"; };
 		7EC00A901A90AD900007684D /* Annotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Annotation.m; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E1376801A93B63F009EE4AF /* CoreLocation.framework in Frameworks */,
 				7EC00A8E1A909CE10007684D /* MapKit.framework in Frameworks */,
 				7EE4FD171A906D4700E43A5B /* AddressBook.framework in Frameworks */,
 				7EE4FD181A906D4700E43A5B /* AddressBookUI.framework in Frameworks */,
@@ -80,6 +83,7 @@
 		7EE4FCE01A904CAC00E43A5B = {
 			isa = PBXGroup;
 			children = (
+				7E13767F1A93B63F009EE4AF /* CoreLocation.framework */,
 				7EC00A8D1A909CE10007684D /* MapKit.framework */,
 				7EE4FD191A907FE900E43A5B /* Entitlements.plist */,
 				7EE4FD151A906D4700E43A5B /* AddressBook.framework */,

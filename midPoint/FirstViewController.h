@@ -10,7 +10,7 @@
 #import <AddressBookUI/AddressBookUI.h>
 #import <MapKit/MapKit.h>
 
-@interface FirstViewController : UIViewController <ABPeoplePickerNavigationControllerDelegate> {
+@interface FirstViewController : UIViewController <CLLocationManagerDelegate, ABPeoplePickerNavigationControllerDelegate> {
     
     ABPeoplePickerNavigationController *peoplePicker;
     
@@ -46,6 +46,8 @@
 - (IBAction)clear:(id)sender;
 
 - (IBAction)submit:(id)sender;
+
+@property (nonatomic, retain) CLLocationManager *locationManager;
 
 @end
 
